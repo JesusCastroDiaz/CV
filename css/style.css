@@ -1,0 +1,160 @@
+*{	box-sizing: border-box;  margin: 0;  padding: 0;}
+html{ height: 100%;   background: white;  align-content: center; }
+/*font-family: 'Antonio', sans-serif;*/
+body{
+	box-sizing: border-box;
+	background:#EAEAEA ;
+	font-family: 'Josefin Sans', sans-serif;
+	min-height: 1300px;
+	width: 80% ;
+	margin: auto;
+	display: grid;
+	grid-row-gap:0px;
+	grid-template-columns:35% 65%;
+	grid-template-areas: 
+	"izquierda derecha"
+	"pie	pie";
+	}
+@media (max-width: 1000px){
+	body{
+	align-content: center;
+	grid-template-columns:100% auto;
+	grid-template-areas: 
+	"izquierda"
+	"derecha"
+	"pie";
+	}
+	}
+
+.izq{ 
+	box-sizing: border-box; 
+	grid-area: izquierda;
+	display: inline-block;
+	background: #313131;
+	min-height: 1300px;
+	}
+
+.der{ 
+	background: linear-gradient(90deg,white 65%,#F6C203 35%);
+	box-sizing: border-box; 
+	grid-area: derecha;
+	display: inline-block;
+	/*background:#F6C203 ;*/	
+	min-height: 1300px;
+	}
+.pie{
+	box-sizing: border-box;
+	grid-area: pie;
+	padding: 2px;
+	height: 20px;
+	margin: auto;
+	font-family: 'Antonio', sans-serif;
+	color: #755C00;}
+
+.cen{
+	box-sizing: border-box;
+	background: #F9F9FA;
+	min-height: 1300px;
+	width: 90%;
+	border-top-style: solid;
+	border-top-width: 50px;
+	border-top-color: rgba(0, 0, 0, 0.0);
+	border-bottom-style: solid;
+	border-bottom-width: 50px;
+	border-bottom-color: rgba(0, 0, 0, 0.0);
+	background-clip: padding-box; 
+	}
+
+.foto{ 
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 13%;
+	padding-bottom: 5%;
+	text-align: center;}
+.foto1{	width: 45%;}
+
+.nombre{
+	margin-left: 5%;
+	width: 100%;
+	}	
+.nombre h1 , .nombre h2{ 
+	margin-bottom: 3%;
+	color:#F6C203 ; 
+	font-family: 'Antonio', sans-serif;
+	}
+
+.linea1{ width: 20%;
+	color:#F6C203 ;
+	height: 4px;
+	background:#F6C203 ;
+	border-style: none;
+ 	}
+.izq h4{
+	font-size: 25px;
+ 	color:#F6C203 ; 
+	font-family: 'Antonio', sans-serif;
+	margin-bottom: 1%;
+	 }	
+.linea2, .linea3 , .linea4{
+	 width: 70%;
+	color:#F6C203 ;
+	height: 2px;
+	background:#F6C203 ;
+	border-style: none;
+	margin-bottom: 30px;
+	 }
+.referencia, .personal, .contacto{
+	margin-top: 40px;
+	padding-left: 5%;
+}	 
+
+.referencia p, .personal p, .contacto p{
+	font-size: 18px;
+ 	color:white ; 
+	font-family: 'Antonio', sans-serif;
+}	 
+
+/*///////////////////////////////////    PARTE DERECHA    //////////////////////////////////////*/
+/*///////////////////////////////////    PARTE DERECHA    //////////////////////////////////////*/
+/*///////////////////////////////////    PARTE DERECHA    //////////////////////////////////////*/
+/*///////////////////////////////////    PARTE DERECHA    //////////////////////////////////////*/
+
+
+
+li{list-style: none;}
+
+/*.cen div*/
+.sobremi, .experiencia, .habilidades , .estudios {
+	color: #7E6303;
+	font-family: 'Antonio', sans-serif;
+	margin-right:30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: justify;}
+.cen h5{ font-size: 23px;
+	margin-bottom: 3px; }	
+
+.cen hr{
+		 width: 90%;
+	color:#F6C203 ;
+	height: 2px;
+	background:#F6C203 ;
+	border-style: none;
+	margin-bottom: 30px;
+	}	
+
+
+.hab1,.hab2,.hab3,.hab4,.hab5,.hab6,.hab7{
+	width: 80%;
+	background-color: #B4B3B1;
+	height: 5px;
+	border-radius: 60px;
+	margin-bottom: 30px;
+	}
+.h1{width: 90%; background-color: #876A02;height: 5px;	border-radius: 60px;}
+.h2{width: 95%; background-color: #876A02;height: 5px;	border-radius: 60px;}
+.h3{width: 88%; background-color: #876A02;height: 5px;	border-radius: 60px;}
+.h4{width: 85%; background-color: #876A02;height: 5px;	border-radius: 60px;}
+.h5{width: 90%; background-color: #876A02;height: 5px;	border-radius: 60px;}
+.h6{width: 98%; background-color: #876A02;height: 5px;	border-radius: 60px;}
+.h7{width: 82%; background-color: #876A02;height: 5px;	border-radius: 60px;}
